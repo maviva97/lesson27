@@ -1,0 +1,42 @@
+/* Stiluri de bază */
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#root {
+  list-style: none;
+  padding: 0;
+}
+
+.userItem {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.userItem h3 {
+  margin: 0;
+}
+
+.todoList {
+  padding: 0;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.todoItem input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todoItem.done span {
+  text-decoration: line-through;
+  color: #999;
+}
